@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px 60px;
+}
+.form-group input{
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    background-color: #344a72;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: blue;
+}
+p a{
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+.passw{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.signing{
+    color: blue;
+}
+.images{
+    background-image: url('./apple.png');
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
