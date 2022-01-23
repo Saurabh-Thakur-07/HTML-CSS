@@ -93,15 +93,7 @@ img{
 .hero *{
     z-index: 10;
 }
-.flex-items{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-right: 10px;
-    height: 100%;
-}
+
 .flex-items i{
     padding: 1rem;
     background-color: #28a745;
@@ -113,12 +105,54 @@ img{
     font-weight: bold;
     margin-bottom: 15px;
 }
-.flex-items > div{
-    padding: 20px;
-}
+
 .icons{
     padding: 30px;
 }
 .cases img:hover{
     opacity: 0.7;
+}
+.team img{
+    border-radius: 50%;
+}
+.callback-form{
+    width: 100%;
+    padding: 20px 0;
+}
+.callback-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.callback-form input{
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+}
+.callback-form .form-control{
+    margin-bottom: 15px ;
+}
+.callback-form input:focus{
+    outline-color: #28a745;
+}
+.callback-form .btn{
+    padding: 12px 0;
+    margin-top: 12px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.footer i{
+    color: #fff;
+    margin-top: 20px ;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.footer i:hover{
+    color: #28a745;
 }
